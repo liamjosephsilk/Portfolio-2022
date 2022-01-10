@@ -23,7 +23,7 @@
 		<ul class="flex gap-10">
 			{#each nav as navitems}
 				<li class={$page.url.pathname === navitems.url ? 'font-semibold' : 'font-normal'}>
-					<a href={navitems.url}>
+					<a href={navitems.url} class="hover:text-purple-600">
 						{navitems.name}
 					</a>
 				</li>
