@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-	@apply font-body text-sm;
+	@apply font-body text-base leading-normal;
 }
 
 h1,
