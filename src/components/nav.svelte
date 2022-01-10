@@ -1,20 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-
-	const nav = [
-		{
-			url: '/',
-			name: 'Home'
-		},
-		{
-			url: '/posts',
-			name: 'Posts'
-		},
-		{
-			url: '/snippets',
-			name: 'Snippets'
-		}
-	];
+	import { nav } from '../utils/navitems';
 </script>
 
 <header class="flex items-center py-8">
