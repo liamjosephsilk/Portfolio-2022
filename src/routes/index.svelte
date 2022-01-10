@@ -1,4 +1,5 @@
 <script context="module">
+	import HeroCopy from '../components/heroCopy.svelte';
 </script>
 
-<h1>Index Page</h1>
+<HeroCopy />
