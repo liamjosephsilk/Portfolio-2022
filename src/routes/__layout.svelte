@@ -5,6 +5,7 @@
 	import 'cal-sans';
 
 	import Nav from '../components/nav.svelte';
+	import Footer from '../components/footer.svelte';
 </script>
 
 <div class="px-2 md:px-24 lg:px-80 text-white bg-[#222222]">
@@ -12,5 +13,7 @@
 		<Nav />
 
 		<slot />
+
+		<Footer />
 	</main>
 </div>

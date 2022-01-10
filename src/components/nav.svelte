@@ -1,20 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-
-	const nav = [
-		{
-			url: '/',
-			name: 'Home'
-		},
-		{
-			url: '/posts',
-			name: 'Posts'
-		},
-		{
-			url: '/snippets',
-			name: 'Snippets'
-		}
-	];
+	import { nav } from '../utils/navitems';
 </script>
 
 <header class="flex items-center py-8">
@@ -23,7 +9,7 @@
 		<ul class="flex gap-10">
 			{#each nav as navitems}
 				<li class={$page.url.pathname === navitems.url ? 'font-semibold' : 'font-normal'}>
-					<a href={navitems.url}>
+					<a href={navitems.url} class="hover:text-purple-600">
 						{navitems.name}
 					</a>
 				</li>
