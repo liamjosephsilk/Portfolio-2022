@@ -2,3 +2,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+	@apply font-body text-sm;
+}
+
+h1,
+h2,
+h3 {
+	@apply font-display tracking-wide;
+}
+
+h1 {
+	@apply text-3xl tracking-wide;
+}
+
+h2 {
+	@apply text-2xl tracking-wide;
+}
+
+h3 {
+	@apply text-lg tracking-wide;
+}
