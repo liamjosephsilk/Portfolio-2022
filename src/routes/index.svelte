@@ -6,7 +6,7 @@
 	export const load = async () => {
 		const query = gql`
 			query getPosts {
-				posts {
+				posts(where: { featured: true }) {
 					title
 					publishDate
 					slug
