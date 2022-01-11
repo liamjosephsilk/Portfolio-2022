@@ -4,8 +4,9 @@
 	import '@fontsource/inter/600.css';
 	import 'cal-sans';
 
-	import Nav from '../components/nav.svelte';
-	import Footer from '../components/footer.svelte';
+	import Nav from '$lib/components/Nav.svelte';
+
+	import Footer from '$lib/components/footer.svelte';
 </script>
 
 <div class="px-2 md:px-24 lg:px-80 text-white bg-[#222222]">

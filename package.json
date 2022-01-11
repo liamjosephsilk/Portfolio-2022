@@ -20,6 +20,8 @@
 		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.1",
+		"graphql": "^16.2.0",
+		"graphql-request": "^3.7.0",
 		"postcss": "^8.4.5",
 		"prettier": "^2.4.1",
 		"prettier-plugin-svelte": "^2.4.0",
@@ -34,6 +36,7 @@
 	"dependencies": {
 		"@fontsource/inter": "^4.5.1",
 		"cal-sans": "^1.0.1",
+		"env-cmd": "^10.1.0",
 		"global": "^4.4.0"
 	}
 }

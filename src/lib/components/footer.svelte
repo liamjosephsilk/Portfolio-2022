@@ -1,7 +1,21 @@
 <script>
-	import getYear from '../utils/getYear';
-	import { nav } from '../utils/navItems';
+	import getYear from '$lib/getYear';
 	import { page } from '$app/stores';
+
+	const nav = [
+		{
+			url: '/',
+			name: 'Home'
+		},
+		{
+			url: '/posts',
+			name: 'Posts'
+		},
+		{
+			url: '/snippets',
+			name: 'Snippets'
+		}
+	];
 </script>
 
 <footer class="border-t border-t-gray-700 py-8">
